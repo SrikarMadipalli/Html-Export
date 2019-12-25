@@ -1,0 +1,29 @@
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid rgba(151, 151, 151, .2);
+
+  .source-code-container {
+    padding-right: 20px;
+    flex: 1 1;
+  }
+
+  .destination-code-container {
+    flex: 1 1;
+  }
+
+  .file-upload {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .file-input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+  }
+}
